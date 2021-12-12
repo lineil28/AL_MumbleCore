@@ -1,6 +1,18 @@
 import java.util.ArrayList;
-// Write class ALTester, which will populate an ArrayList with 23 Integers and determine whether the list is sorted or not.
-// Implement class OrderedArrayList, a wrapper class for ArrayList maintaining the invariant that its elements are sorted.
+/*
+Team MumbleCore - Abdullah Faruque, Neil Lin, Russell Goychayev
+APCS
+Lab02 -- Well Al B. Sorted
+2021-12-1
+time spent: 0.5 hrs
+*/
+
+/*
+DISCO:
+ArrayList has a lot of built in functions like add() and remove(). 
+QCC
+are there more effecient ways of sorting an ArrayList?
+*/
 
 public class ALTester {
 
