@@ -1,12 +1,6 @@
 # TEAM MumbleCore
 # Abdullah Faruque, Neil Lin, Russell Goychayev
 
-README.md displaying
-TNPG
-roster
-Section with heading “ALTester” containing clear summary of its operating algorithm.
-Section with heading “OrderedArrayList” containing bulleted list of methods offered, and how each does its job.
-
 ## ALTester
 * <code>sorted(ArrayList<Integer> arr)</code> takes an ArrayList, and returns <code>true</code> when it is sorted, and <code>false</code> if it is not sorted. It does so by checking if an element is less than its proceeding element. 
 * The main method in ALTester has all of our testcases, including those for <code>OrderedArrayList</code>.
