@@ -37,8 +37,8 @@ public class ALTester {
     System.out.println("is it sorted!?: " + sorted(joe._data));
     System.out.println(joe);
     System.out.println("adding values 50 and 25 to joe");
-    joe.add(50);
-    joe.add(25);
+    joe.addLinear(50);
+    joe.addBinary(25);
     System.out.println(joe);
     System.out.println("size is: "+ joe.size());
     System.out.println("removing 50");
