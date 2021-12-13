@@ -14,3 +14,5 @@ are there more effecient ways of sorting an ArrayList?
 */
 
 our order method is not the most effecient one, as it runs through the same for loop numerous times. Though it was the simplest to think about in our opinion. 
+
+the skeleton was of great shock to us. binary was tough.
