@@ -62,17 +62,17 @@ public class OrderedArrayList {
         	while (right - left > 1) {
      			if (newVal >= _data.get(middle)) {
    				left = middle;
-				middle += (right - middle) / 2;
+				middle += (right - middle) / 2;// by being greater than the middle value we are only working with the second half of the array
    			}
       			else {
 				right = middle;
-				middle = left + (middle - left) / 2;
+				middle = left + (middle - left) / 2;//else if less than the middle we just work with the first half of the array
               		}
 		}
 		if (newVal >= _data.get(right)) {
-			 _data.add(newVal); }
+			 _data.add(newVal); }//by being the biggest element it's half it is ended to the end of the half.
 		else if (newVal >= _data.get(left)) {
-			 _data.add(right, newVal); }
+			 _data.add(right, newVal); } //by bring the smallest element in the half it is added at the beginning of the half.
 		else {
 			 _data.add(left, newVal); }
 	}
