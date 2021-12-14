@@ -19,3 +19,5 @@
 * <code>addLinear</code> adds by comparing each value linearly, with the newValue. If it is less than indexed value, it adds at that spot.
 * <code>addBinary</code> does the same job, but in a binary fashion. it searches the array through "halves" depending on the value of newValue, whether it is greater than or less than the middle point. From there, we continue chopping the array until we the newVal can be added without destroying the order.
 
+
+  
